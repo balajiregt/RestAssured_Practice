@@ -34,6 +34,16 @@ mvn test
 Configuration:
 Credentials and environment-specific data are stored in the config.properties file located in the src/test/resources directory. Update this file to reflect your environment settings.
 
+This project uses environment variables for configuration. 
+The required variables are listed in the 'env.example and config.properties.example' files.
+
+Setup:
+Copy example files:
+First, you need to copy the example configuration files to create actual config files that the system will use.
+
+#create '.env' and paste the values from 'env.example'
+#create 'config.properties' and paste the values from 'config.properties.example'
+
 Contributing:
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
