@@ -1,0 +1,54 @@
+# Compiled bytecode
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# IDE and tooling files
+.idea/
+*.iml
+*.ipr
+*.iws
+*.dat
+*.bak
+*.swp
+*.rej
+*.swo
+*.orig
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Maven specific (you might be building your project with Maven)
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+config.properties
+.mvn/timing.properties
+
+# Other common files to ignore
+*.bak
+*.swp
+*.rej
+*.swo
+*.orig
+
+# dotenv environment variables file
+*.env
+
+# Log files
+*.log
+
+# Temp files
+*.tmp
